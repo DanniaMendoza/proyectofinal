@@ -1,0 +1,67 @@
+body{
+    font-family: Tahoma;
+    font-size: 17px;
+    transition: padding-top 0.5s ease;
+    background: url(../Imagenes/fondoagre1.jpg);
+
+    background-size: cover;
+    margin: 10;
+    padding: 0;
+    border: 0;
+    color: #00002d
+}
+
+h3{
+    width: 850px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 51, 204, 0.4);
+    font-size: 24px;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px
+}
+
+/*CONTENIDO DE CADA PORTAFOLIO*/
+
+.portafolio {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 100%;
+    margin: 50px auto;
+    margin-top: 5px;    
+}
+.pruebadiv{
+    margin: 15px auto;  
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 5px rgba(110, 151, 204, 0.3);
+    border-radius: 10px;
+    background-color: rgba(0, 51, 204, 0.4);
+}
+
+.portafolio a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pruebadiv img{
+    margin-top: 15px;
+    width: 250px;
+    height: 160px;
+ border-radius: 0px 0px 10px 10px;
+}
+
+.pruebadiv:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+
+}

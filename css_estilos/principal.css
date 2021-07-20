@@ -1,0 +1,86 @@
+body{
+    font-family: Arvo,Tahoma;
+    font-size: 17px;
+    transition: padding-top 0.5s ease;
+    background: url(../Imagenes/fondo1.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Nosotros-Productos*/
+
+.centrar{
+    text-align: center;
+}
+.Nosotros{
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.fotos1{
+    width: 300px;
+    height: 200px;
+}
+.Nosotros-contenido{
+	display: flex;
+	justify-content: space-between;
+    
+}
+.dato{
+	flex-basis: calc(33.3% - 50px);
+}
+
+/*Productos*/
+.productos{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*Articulos*/
+.Articulos{
+ padding-left: 35px;
+    padding-right: 35px;
+}
+.Articulos-colum{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.colum{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+      padding-right: 55px;
+}
+#uno{
+    display: flex;
+    flex-direction: row;
+}
+#dos{
+    display: flex;
+    flex-direction: row;
+}
+#derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.imagen2{
+    
+    height: 220px;
+    padding-left: 35px;
+    padding-right: 85px;
+}

@@ -1,0 +1,138 @@
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background: #202020;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+h1{
+    text-transform: uppercase;
+
+}
+.contenedor-principal{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.cuerpo-contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1{
+    max-width: 300px;
+}
+
+.columna1 h1{
+    font-size: 12px;
+
+}
+
+.columna1 p{
+    font-size: 12px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.columna2{
+    max-width: 400px;
+
+}
+
+.columna2 h1{
+    font-size: 12px;
+}
+
+.fila{
+    margin-top: 10px;
+    display: flex;
+}
+
+.fila img{
+    width: 20px;
+    height: 20px;
+}
+
+.fila label{
+    margin-top: 8px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.columna3{
+    max-width: 400px;
+}
+
+.columna3 h1{
+    font-size: 12px;
+}
+
+.fila2{
+    margin-top: 8px;
+    display: flex;
+}
+
+.fila2 img{
+    width: 20px;
+    height: 20px;
+}
+
+.fila2 label{
+    margin-top: 5px;
+    margin-left: 20px;
+    max-width: 140px;
+    font-size: 12px;
+}
+
+.contenedor-footer{
+    margin-top: 20px;
+    width: auto;
+    background: #101010;
+    padding: 10px;
+
+}
+
+.footer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.informacion a{
+    text-decoration: none;
+    color: #C7C7C7;
+
+}
+
+/*cuando la ventana llegue a esa resolucion entonces las filas se reubicaran de una manera ordenada
+la columna uno tomara todo el ancho de la pantalla
+y las otras dos columnas pasaran abajo*/
+@media screen and (max-width: 1100px){
+    .cuerpo-contenedor{
+        flex-wrap: wrap;
+    }
+    .columna1{
+        max-width: 100%;
+    }
+    .columna2,
+    .columna3{
+        margin-top: 40px;
+    }
+}

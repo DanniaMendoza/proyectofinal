@@ -1,0 +1,86 @@
+body{
+	font-family: Arvo,Tahoma;
+	font-size: 15px;
+    background: url(../Imagenes/fondolistarproducto2.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.registro{
+    width: 1400px;
+    height: 100%;
+    margin: 40px auto;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+}
+
+h1{
+padding-top: 30px;
+    text-align: center;
+}
+
+/*---------BOTON NUEVO PRODUCTO -------------*/
+.botonesdeayuda{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonesdeayuda div{
+    margin-right: 50px;
+}
+
+.new{
+    padding: 10px 20px 10px 20px;
+    box-shadow: 5px 1px 8px rgba(0,0,0,0.4);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.new:hover{
+    
+ background: rgba(255, 165, 0, 0.9);
+}
+
+/*--------- TABLAS -------------*/
+.tablaproductos{
+    width: 1300px;
+    height: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tablaproductos td{
+    padding-left: 15px;
+}
+
+.tablaproductos th{
+    background-color: rgba(0, 0, 102, 1);
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.botonem{
+    text-align: center;
+}
+
+.tablaproductos a{
+    text-decoration: none;
+}
+
+.botonem input{
+    margin-top: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    border-radius: 5px; 
+}
+
+.botonem input:hover{
+ background: rgba(255, 165, 0, 0.9);
+}
+

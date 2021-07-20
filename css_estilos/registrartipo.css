@@ -1,0 +1,61 @@
+body{
+	font-family: Arvo,Tahoma;
+	font-size: 14px;
+    background: url(../Imagenes/registroportada.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.registro{
+    width: 500px;
+    height: 360px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+}
+/* ------------titulo--------------*/
+form.formulario h1{
+    font-size: 23px;
+    font-weight: 600;
+	margin-top: 35px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+/* ------------datos con cuadros --------------*/
+.info_registro{
+	display: flex;
+	flex-direction: column;
+	padding-left: 60px;
+    padding-bottom: 25px;
+}
+
+.info_registro label{
+    padding-top: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.info_registro input{
+    width: 78%;
+    padding: 8px 0px 8px 10px;
+    border: 2px solid rgb(150, 180, 200);
+    
+   	border-radius: 4px;
+}
+
+/* ------------BOTONES EXTRAS--------------*/
+.botonextras{
+    padding:10px 15px 10px 15px;
+    font-weight: bold;
+    margin-left: 330px;
+    font-size: 12px;
+}
+

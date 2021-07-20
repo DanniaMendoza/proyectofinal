@@ -1,0 +1,136 @@
+body{
+    font-family: Arvo,Tahoma;
+    font-size: 17px;
+    transition: padding-top 0.5s ease;
+    background: url(../Imagenes/fondo1.png);
+    margin: 0;
+    padding: 0;
+    border: 0;  
+}
+
+/*CUERPO NOSOTROS*/
+.nosotros{
+    background: url(../Imagenes/Imagenn.jpg);
+    background-position: center center;
+    height: 350px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+}
+.mv{
+    display: flex;
+    flex-direction: column;
+}
+.siglo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.historia{
+    background: url(../Imagenes/fondo1.png);
+    background-position: center center;
+
+}
+.linea{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+}
+.linea1{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.linea2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.linea3{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.borde{
+    margin: 10px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    border: 10px solid white;
+    background-color: none;
+    background-position: center ;
+    width: 80px;
+}
+.fondo{
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    border: 10px solid white;
+    
+    background: -webkit-linear-gradient(top, cyan, white)
+}
+
+#vision{
+font-family: Berlin Sans FB Demi; text-align: left;
+}
+#mision{
+    font-family: Berlin Sans FB Demi; color: red; text-align: left;
+}
+#misionp{
+    font-family: Tahoma; text-align: justify; color: red;
+}
+#visionp{
+    font-family: Tahoma; text-align: justify;
+}
+#his{
+font-family: Comic Sans MS ; text-align: center;
+}
+#hispa{
+    font-family: Berlin Sans FB Demi; text-align: center;
+}
+
+#parrafo{
+    font-family: Tahoma; text-align: justify;
+}
+#foot{
+    font-family: Broadway;text-align: center;border-radius: 20px;
+    background-color: none;background-position: center ;
+    width: 300px;border: 5px dashed purple; padding: 10px;
+}
+#foot1{
+    width: 300px;font-family: Comic Sans MS; height: 80px; 
+    background-color: red;border-radius: 15px;
+}
+#imagen{
+    width: 400px; height: 200px; margin-left: 10vw;
+}
+
+.tab{
+    font-family: Showcard Gothic; color: white;
+}
+.desde{
+    font-family: Bradley Hand ITC; color: white;
+}
+.acerca{
+    font-family: Comic Sans MS; color: white;
+}
+.prod{
+    font-family: Comic Sans MS; color: yellow;
+}
+.req{
+    font-family: Tahoma; color: white;
+}
+.vive{
+    color: white;
+}
+
